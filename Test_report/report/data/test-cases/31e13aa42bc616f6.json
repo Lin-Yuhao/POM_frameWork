@@ -1,0 +1,156 @@
+{
+  "uid" : "31e13aa42bc616f6",
+  "name" : "测试修改手机号码功能",
+  "fullName" : "Test_uicase.test_01.Test_personal#test_modify_number_00003",
+  "historyId" : "bbae5124152108538e96044ebd53cccb",
+  "time" : {
+    "start" : 1635208561394,
+    "stop" : 1635208570459,
+    "duration" : 9065
+  },
+  "description" : "描述",
+  "descriptionHtml" : "<p>描述</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "描述",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "参数与截图",
+      "time" : {
+        "start" : 1635208561394,
+        "stop" : 1635208570459,
+        "duration" : 9065
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e4df00b05068f99",
+        "name" : "元素截图:输入",
+        "source" : "9e4df00b05068f99.png",
+        "type" : "image/png",
+        "size" : 304071
+      }, {
+        "uid" : "efb864d3b8e040c2",
+        "name" : "元素截图:输入",
+        "source" : "efb864d3b8e040c2.png",
+        "type" : "image/png",
+        "size" : 304357
+      }, {
+        "uid" : "e92332a5524b2ee3",
+        "name" : "元素截图:点击",
+        "source" : "e92332a5524b2ee3.png",
+        "type" : "image/png",
+        "size" : 301766
+      }, {
+        "uid" : "fee2650f9f4c440a",
+        "name" : "元素截图:点击",
+        "source" : "fee2650f9f4c440a.png",
+        "type" : "image/png",
+        "size" : 76584
+      }, {
+        "uid" : "2d9b122ca3cb0406",
+        "name" : "元素截图:悬停",
+        "source" : "2d9b122ca3cb0406.png",
+        "type" : "image/png",
+        "size" : 132084
+      }, {
+        "uid" : "6351bbc30677ce6c",
+        "name" : "元素截图:点击",
+        "source" : "6351bbc30677ce6c.png",
+        "type" : "image/png",
+        "size" : 132165
+      }, {
+        "uid" : "d1b1594974344350",
+        "name" : "元素截图:点击",
+        "source" : "d1b1594974344350.png",
+        "type" : "image/png",
+        "size" : 114366
+      }, {
+        "uid" : "12078efe048c4117",
+        "name" : "元素截图:输入",
+        "source" : "12078efe048c4117.png",
+        "type" : "image/png",
+        "size" : 109210
+      }, {
+        "uid" : "82f8be6677c081ca",
+        "name" : "元素截图:确定弹窗后",
+        "source" : "82f8be6677c081ca.png",
+        "type" : "image/png",
+        "size" : 109154
+      }, {
+        "uid" : "b53aa13a6998ba05",
+        "name" : "元素截图:点击",
+        "source" : "b53aa13a6998ba05.png",
+        "type" : "image/png",
+        "size" : 110786
+      } ],
+      "parameters" : [ {
+        "name" : "手机号",
+        "value" : "'...........'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 10,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1fdfad8dff7d6c38",
+      "name" : "log",
+      "source" : "1fdfad8dff7d6c38.txt",
+      "type" : "text/plain",
+      "size" : 2104
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人信息模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_uicase"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_personal"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5JFIINE"
+  }, {
+    "name" : "thread",
+    "value" : "492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_uicase.test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31e13aa42bc616f6.json",
+  "parameterValues" : [ ]
+}

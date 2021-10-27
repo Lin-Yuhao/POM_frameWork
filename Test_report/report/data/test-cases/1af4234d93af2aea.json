@@ -1,0 +1,165 @@
+{
+  "uid" : "1af4234d93af2aea",
+  "name" : "测试修改电子邮件功能",
+  "fullName" : "Test_uicase.test_01.Test_personal#test_modify_email_00004",
+  "historyId" : "08ca8e958f5ecb113bcc70369ae7af52",
+  "time" : {
+    "start" : 1635208522867,
+    "stop" : 1635208533480,
+    "duration" : 10613
+  },
+  "description" : "描述",
+  "descriptionHtml" : "<p>描述</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "描述",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "参数与截图",
+      "time" : {
+        "start" : 1635208522867,
+        "stop" : 1635208533480,
+        "duration" : 10613
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33c6e19229b6d278",
+        "name" : "元素截图:输入",
+        "source" : "33c6e19229b6d278.png",
+        "type" : "image/png",
+        "size" : 304056
+      }, {
+        "uid" : "36ff03fb40565620",
+        "name" : "元素截图:输入",
+        "source" : "36ff03fb40565620.png",
+        "type" : "image/png",
+        "size" : 304347
+      }, {
+        "uid" : "afb653a922a334a8",
+        "name" : "元素截图:点击",
+        "source" : "afb653a922a334a8.png",
+        "type" : "image/png",
+        "size" : 301766
+      }, {
+        "uid" : "c82fe50a801fc835",
+        "name" : "元素截图:点击",
+        "source" : "c82fe50a801fc835.png",
+        "type" : "image/png",
+        "size" : 76578
+      }, {
+        "uid" : "47e2c80f7818fabc",
+        "name" : "元素截图:悬停",
+        "source" : "47e2c80f7818fabc.png",
+        "type" : "image/png",
+        "size" : 131539
+      }, {
+        "uid" : "5e11af0d7e95b1b0",
+        "name" : "元素截图:点击",
+        "source" : "5e11af0d7e95b1b0.png",
+        "type" : "image/png",
+        "size" : 131615
+      }, {
+        "uid" : "b447bca2f3dc7412",
+        "name" : "元素截图:点击",
+        "source" : "b447bca2f3dc7412.png",
+        "type" : "image/png",
+        "size" : 113717
+      }, {
+        "uid" : "60766ced02378983",
+        "name" : "元素截图:输入",
+        "source" : "60766ced02378983.png",
+        "type" : "image/png",
+        "size" : 105663
+      }, {
+        "uid" : "5f00ff3049c28d18",
+        "name" : "元素截图:输入",
+        "source" : "5f00ff3049c28d18.png",
+        "type" : "image/png",
+        "size" : 105691
+      }, {
+        "uid" : "d9dbfcf052f4423e",
+        "name" : "元素截图:点击",
+        "source" : "d9dbfcf052f4423e.png",
+        "type" : "image/png",
+        "size" : 108291
+      }, {
+        "uid" : "a8b6d0484e419e52",
+        "name" : "URL未跳转截图",
+        "source" : "a8b6d0484e419e52.png",
+        "type" : "image/png",
+        "size" : 108291
+      } ],
+      "parameters" : [ {
+        "name" : "密码",
+        "value" : "''"
+      }, {
+        "name" : "邮箱",
+        "value" : "''"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 11,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fdebf3a43a1e6fa4",
+      "name" : "log",
+      "source" : "fdebf3a43a1e6fa4.txt",
+      "type" : "text/plain",
+      "size" : 2127
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人信息模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_uicase"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_personal"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5JFIINE"
+  }, {
+    "name" : "thread",
+    "value" : "492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_uicase.test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1af4234d93af2aea.json",
+  "parameterValues" : [ ]
+}

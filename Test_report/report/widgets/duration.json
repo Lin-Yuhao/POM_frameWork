@@ -1,0 +1,201 @@
+[ {
+  "uid" : "524d06cd99881737",
+  "name" : "测试修改用户密码功能",
+  "time" : {
+    "start" : 1635208452964,
+    "stop" : 1635208463057,
+    "duration" : 10093
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e518aa380729874d",
+  "name" : "测试修改电子邮件功能",
+  "time" : {
+    "start" : 1635208503355,
+    "stop" : 1635208513083,
+    "duration" : 9728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16140a54ed52e5e",
+  "name" : "测试修改用户密码功能",
+  "time" : {
+    "start" : 1635208483354,
+    "stop" : 1635208493461,
+    "duration" : 10107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3253e4b001a1add7",
+  "name" : "测试修改手机号码功能",
+  "time" : {
+    "start" : 1635208543528,
+    "stop" : 1635208552426,
+    "duration" : 8898
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef27cd711eda5822",
+  "name" : "测试修改电子邮件功能",
+  "time" : {
+    "start" : 1635208493464,
+    "stop" : 1635208503352,
+    "duration" : 9888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53e15971b7b4ace8",
+  "name" : "测试登录功能",
+  "time" : {
+    "start" : 1635208394252,
+    "stop" : 1635208400616,
+    "duration" : 6364
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "91f42fcd69424407",
+  "name" : "测试修改电子邮件功能",
+  "time" : {
+    "start" : 1635208513086,
+    "stop" : 1635208522865,
+    "duration" : 9779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78ed479ca142ba58",
+  "name" : "测试修改用户密码功能",
+  "time" : {
+    "start" : 1635208442962,
+    "stop" : 1635208452961,
+    "duration" : 9999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1af4234d93af2aea",
+  "name" : "测试修改电子邮件功能",
+  "time" : {
+    "start" : 1635208522867,
+    "stop" : 1635208533480,
+    "duration" : 10613
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a33c4785ee7a5bf2",
+  "name" : "测试修改个人信息功能",
+  "time" : {
+    "start" : 1635208412312,
+    "stop" : 1635208422880,
+    "duration" : 10568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10b9e9e7aea010d0",
+  "name" : "测试修改用户密码功能",
+  "time" : {
+    "start" : 1635208473214,
+    "stop" : 1635208483352,
+    "duration" : 10138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3326bc0258969f16",
+  "name" : "测试登录功能",
+  "time" : {
+    "start" : 1635208406452,
+    "stop" : 1635208412310,
+    "duration" : 5858
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c557a2f441830d48",
+  "name" : "测试登录功能",
+  "time" : {
+    "start" : 1635208400619,
+    "stop" : 1635208406450,
+    "duration" : 5831
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4487f9fee8961a87",
+  "name" : "测试修改个人信息功能",
+  "time" : {
+    "start" : 1635208433235,
+    "stop" : 1635208442960,
+    "duration" : 9725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31e13aa42bc616f6",
+  "name" : "测试修改手机号码功能",
+  "time" : {
+    "start" : 1635208561394,
+    "stop" : 1635208570459,
+    "duration" : 9065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8bb3ff088fe88f4",
+  "name" : "测试修改手机号码功能",
+  "time" : {
+    "start" : 1635208570461,
+    "stop" : 1635208579209,
+    "duration" : 8748
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1aea83497eec5e0f",
+  "name" : "测试修改电子邮件功能",
+  "time" : {
+    "start" : 1635208533482,
+    "stop" : 1635208543526,
+    "duration" : 10044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d728ac7e5d44cd1f",
+  "name" : "测试修改用户密码功能",
+  "time" : {
+    "start" : 1635208463059,
+    "stop" : 1635208473212,
+    "duration" : 10153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebc2b3f2d6548b4a",
+  "name" : "测试修改个人信息功能",
+  "time" : {
+    "start" : 1635208422882,
+    "stop" : 1635208433233,
+    "duration" : 10351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebcdbf5e406a8350",
+  "name" : "测试修改手机号码功能",
+  "time" : {
+    "start" : 1635208552429,
+    "stop" : 1635208561391,
+    "duration" : 8962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,126 @@
+{
+  "uid" : "3326bc0258969f16",
+  "name" : "测试登录功能",
+  "fullName" : "Test_uicase.test_01.Test_personal#test_login_00003",
+  "historyId" : "ac692bddf8c3f8cf9bc76cee381f9607",
+  "time" : {
+    "start" : 1635208406452,
+    "stop" : 1635208412310,
+    "duration" : 5858
+  },
+  "description" : "描述",
+  "descriptionHtml" : "<p>描述</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "描述",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "参数与截图",
+      "time" : {
+        "start" : 1635208406452,
+        "stop" : 1635208412310,
+        "duration" : 5858
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d002e6ee50d681b",
+        "name" : "元素截图:输入",
+        "source" : "3d002e6ee50d681b.png",
+        "type" : "image/png",
+        "size" : 303931
+      }, {
+        "uid" : "887331294875e2e3",
+        "name" : "元素截图:输入",
+        "source" : "887331294875e2e3.png",
+        "type" : "image/png",
+        "size" : 303996
+      }, {
+        "uid" : "da1471290e0bdb75",
+        "name" : "元素截图:点击",
+        "source" : "da1471290e0bdb75.png",
+        "type" : "image/png",
+        "size" : 301484
+      }, {
+        "uid" : "682c59cbf1ef2cbb",
+        "name" : "URL未跳转截图",
+        "source" : "682c59cbf1ef2cbb.png",
+        "type" : "image/png",
+        "size" : 307105
+      } ],
+      "parameters" : [ {
+        "name" : "账号",
+        "value" : "''"
+      }, {
+        "name" : "密码",
+        "value" : "''"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ead5f279aaffd131",
+      "name" : "log",
+      "source" : "ead5f279aaffd131.txt",
+      "type" : "text/plain",
+      "size" : 770
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人信息模块"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_uicase"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_personal"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5JFIINE"
+  }, {
+    "name" : "thread",
+    "value" : "492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_uicase.test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3326bc0258969f16.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,174 @@
+{
+  "uid" : "524d06cd99881737",
+  "name" : "测试修改用户密码功能",
+  "fullName" : "Test_uicase.test_01.Test_personal#test_change_password_00002",
+  "historyId" : "74be7f75f8f69c7fe12680e8b78d6cf1",
+  "time" : {
+    "start" : 1635208452964,
+    "stop" : 1635208463057,
+    "duration" : 10093
+  },
+  "description" : "描述",
+  "descriptionHtml" : "<p>描述</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "描述",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "参数与截图",
+      "time" : {
+        "start" : 1635208452964,
+        "stop" : 1635208463057,
+        "duration" : 10093
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ecb0c68209f15a0a",
+        "name" : "元素截图:输入",
+        "source" : "ecb0c68209f15a0a.png",
+        "type" : "image/png",
+        "size" : 305182
+      }, {
+        "uid" : "e7004757545d70cb",
+        "name" : "元素截图:输入",
+        "source" : "e7004757545d70cb.png",
+        "type" : "image/png",
+        "size" : 305498
+      }, {
+        "uid" : "ad6eeb78fab8eb29",
+        "name" : "元素截图:点击",
+        "source" : "ad6eeb78fab8eb29.png",
+        "type" : "image/png",
+        "size" : 302955
+      }, {
+        "uid" : "9b27ae1b56225eea",
+        "name" : "元素截图:点击",
+        "source" : "9b27ae1b56225eea.png",
+        "type" : "image/png",
+        "size" : 76568
+      }, {
+        "uid" : "210e1a5dd184727d",
+        "name" : "元素截图:悬停",
+        "source" : "210e1a5dd184727d.png",
+        "type" : "image/png",
+        "size" : 132090
+      }, {
+        "uid" : "68a46d5873b0a509",
+        "name" : "元素截图:点击",
+        "source" : "68a46d5873b0a509.png",
+        "type" : "image/png",
+        "size" : 132171
+      }, {
+        "uid" : "efd597ba6662ad3e",
+        "name" : "元素截图:点击",
+        "source" : "efd597ba6662ad3e.png",
+        "type" : "image/png",
+        "size" : 114320
+      }, {
+        "uid" : "36afd6923781f520",
+        "name" : "元素截图:输入",
+        "source" : "36afd6923781f520.png",
+        "type" : "image/png",
+        "size" : 108153
+      }, {
+        "uid" : "e63222321757f1cd",
+        "name" : "元素截图:输入",
+        "source" : "e63222321757f1cd.png",
+        "type" : "image/png",
+        "size" : 108309
+      }, {
+        "uid" : "c0145d972beaa4d7",
+        "name" : "元素截图:输入",
+        "source" : "c0145d972beaa4d7.png",
+        "type" : "image/png",
+        "size" : 108495
+      }, {
+        "uid" : "98944f5b3b4ed0db",
+        "name" : "元素截图:点击",
+        "source" : "98944f5b3b4ed0db.png",
+        "type" : "image/png",
+        "size" : 110588
+      }, {
+        "uid" : "2210952d324bed8c",
+        "name" : "URL未跳转截图",
+        "source" : "2210952d324bed8c.png",
+        "type" : "image/png",
+        "size" : 110588
+      } ],
+      "parameters" : [ {
+        "name" : "新密码",
+        "value" : "'552144918'"
+      }, {
+        "name" : "旧密码",
+        "value" : "'yuhao123'"
+      }, {
+        "name" : "重复密码",
+        "value" : "'yuhao123'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c66d797ca2e09c26",
+      "name" : "log",
+      "source" : "c66d797ca2e09c26.txt",
+      "type" : "text/plain",
+      "size" : 2344
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人信息模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_uicase"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_personal"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5JFIINE"
+  }, {
+    "name" : "thread",
+    "value" : "492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_uicase.test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "524d06cd99881737.json",
+  "parameterValues" : [ ]
+}
