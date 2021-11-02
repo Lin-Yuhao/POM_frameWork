@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../POM_frameWork/.idea/POM_frameWork.iml" filepath="$PROJECT_DIR$/../POM_frameWork/.idea/POM_frameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/POM_frameWork.iml" filepath="$PROJECT_DIR$/.idea/POM_frameWork.iml" />
     </modules>
   </component>
 </project>

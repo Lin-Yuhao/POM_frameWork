@@ -1,30 +1,14 @@
-from  Base_class.Base import Keywork
+from Page_object.Page_Base import Page_Base
 import logging
 
 
-class Page(Keywork):
-
-	def c_login(self,usr,pwd):
-		self.open('http://120.55.190.222:8083/user/login.htm')
-		self.input('xpath', '//*[@id="username"]', usr)
-		self.input('xpath', '//*[@id="password"]', pwd)
-		self.click('xpath', '//*[@id="theForm"]/li[4]/input')
-
-	def c_lppersonal_data(self):
-		self.c_login('552144918','yuhao123')
-		self.click('xpath', '//*[@id="site-nav"]/ul/li[1]/div/a')
-		self.remain('xpath', '//*[@id="SearchForm"]/div/div[2]/ul/li[5]/em/a')
-		self.click('xpath', '//*[@id="SearchForm"]/div/div[2]/ul/li[5]/div/div/span[1]/a')
-
-#--------------------------------------------------------------------------------------------
-
+class Page(Page_Base):
 
 	def login(self,usr,pwd):
 		self.c_login(usr,pwd)
 		self.v_url("http://120.55.190.222:8083/user/login.htm",
 		           "http://120.55.190.222:8083/user_login_success.htm",
 		           "http://120.55.190.222:8083/login_error.htm")
-
 
 	def information(self,name,Gender,bday,region1,region2,region3,QQ,WW,MSN):
 		self.c_lppersonal_data()
@@ -53,7 +37,6 @@ class Page(Keywork):
 				   'http://120.55.190.222:8083/buyer/account_save.htm',
 				   '')
 
-
 	def modify_password(self,pwd,npwd,dpwd):
 		self.c_lppersonal_data()
 		self.click('xpath','//*[@id="centerbg"]/div[2]/div[1]/ul/li[2]/a')
@@ -65,7 +48,6 @@ class Page(Keywork):
 		           'http://120.55.190.222:8083/buyer/account_password_save.htm',
 		           '')
 
-
 	def modify_email(self,pwd,email):
 		self.c_lppersonal_data()
 		self.click('xpath','//*[@id="centerbg"]/div[2]/div[1]/ul/li[3]/a')
@@ -75,7 +57,6 @@ class Page(Keywork):
 		self.v_url('http://120.55.190.222:8083/buyer/account_email.htm',
 		           'http://120.55.190.222:8083/buyer/account_email_save.htm',
 		           '')
-
 
 	def modify_number(self,number):
 		self.c_lppersonal_data()
