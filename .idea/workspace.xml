@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b1f08e-67de-40bf-bacc-f37ce5e47ab1" name="默认变更列表" comment="修改">
-      <change beforePath="$PROJECT_DIR$/Base_class/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_class/Base.py" afterDir="false" />
+    <list default="true" id="c2b1f08e-67de-40bf-bacc-f37ce5e47ab1" name="默认变更列表" comment="修改2021.11.12">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case_date/change_password.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case_date/information.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case_date/login.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Case_date/login.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case_date/modify_number.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case_date/modifyemail.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page_object/Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page_object/Page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page_object/Page_Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page_object/Page_Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_uicase/test_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_uicase/test_01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635814754359</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改2021.11.12">
+      <created>1635815092792</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635815092792</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="修改2021.11.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改2021.11.12" />
   </component>
 </project>
