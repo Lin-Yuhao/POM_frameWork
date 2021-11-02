@@ -9,6 +9,7 @@ if os.path.exists('./Test_report/report'):
 	shutil.rmtree('./Test_report/report')
 else:
 	print('文件不存在，无法删除')
+
 if os.path.exists('./Test_report/test_date'):
 	shutil.rmtree('./Test_report/test_date')
 else:
