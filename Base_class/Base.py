@@ -36,15 +36,15 @@ class Keywork:
 
         self.driver.maximize_window()
 
- # ------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------
     # 截图
     def scr(self, log):
         p = path()
         try:
             result = EC.alert_is_present()(self.driver)
-            if result == True:
+            if result:
                 pass
-            elif result == False:
+            elif not result:
                 self.driver.get_screenshot_as_file(p)
                 if os.path.exists(p):
                     pass
@@ -141,15 +141,16 @@ class Keywork:
 # ------------------------------------------------------------------------------------------
 
     # 强制等待
-    def wait(self, second):
-        if second==0:
+    @staticmethod
+    def wait(second):
+        if second == 0:
             pass
         else:
             logging.info('强制等待{}秒'.format(second))
             time.sleep(second)
 
     # 隐式等待
-    def I_wait(self, second):
+    def i_wait(self, second):
         logging.info('隐式等待{}秒'.format(second))
         self.driver.implicitly_wait(second)
 
@@ -204,11 +205,11 @@ class Keywork:
             os.remove(p)
 
     # 输入日期到日历控件
-    def cld(self, id, test):
+    def cld(self, i, test):
         js = 'document.getElementById("{}").removeAttribute("readonly")'.format(str(id))
         self.driver.execute_script(js)
-        self.driver.find_element_by_id(id).clear()
-        self.driver.find_element_by_id(id).send_keys(test)
+        self.driver.find_element('id',i).clear()
+        self.driver.find_element('id',i).send_keys(test)
         self.scr('输入日历控件')
         logging.info('输入日历控件:{}'.format(test))
 
@@ -227,11 +228,11 @@ class Keywork:
                 logging.info('下拉列表选择异常,选择值:{}'.format(test))
 
     # 弹窗处理
-    def alert(self,test = 1 or 0):
+    def alert(self,test=1 or 0):
         p = path()
         try:
             result = EC.alert_is_present()(self.driver)
-            if result == False:
+            if not result:
                 logging.info('找不到弹窗')
                 self.scr('弹窗后')
             elif test == 0:
