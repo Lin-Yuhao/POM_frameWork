@@ -1,5 +1,4 @@
 import logging
-
 from Base_class.Base import Keywork
 from selenium.webdriver.support import expected_conditions as EC
 
