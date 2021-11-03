@@ -169,40 +169,6 @@ class Keywork:
 
 
 # ------------------------------------------------------------------------------------------
-    # 断言页面跳转
-    def v_url(self, ourl, curl, eurl):
-        self.wait(1)
-        p = path()
-        url = self.driver.current_url
-        if url == ourl:
-            assert url == ourl
-            logging.info("URL未跳转:{}".format(url))
-            self.driver.get_screenshot_as_file(p)
-            with open(p, mode='rb') as f:
-                file = f.read()
-            allure.attach(file, 'URL未跳转截图', allure.attachment_type.PNG)
-            os.remove(p)
-        elif url == curl:
-            logging.info('URL成功跳转:{}'.format(ourl))
-            self.driver.get_screenshot_as_file(p)
-            with open(p, mode='rb') as f:
-                file = f.read()
-            allure.attach(file, 'URL成功跳转', allure.attachment_type.PNG)
-            os.remove(p)
-        elif url == eurl:
-            logging.info('URL失败跳转:{}'.format(curl))
-            self.driver.get_screenshot_as_file(p)
-            with open(p, mode='rb') as f:
-                file = f.read()
-            allure.attach(file, 'URL失败跳转截图', allure.attachment_type.PNG)
-            os.remove(p)
-        elif url != ourl or curl or eurl:
-            self.driver.get_screenshot_as_file(p)
-            logging.warning('URL跳转异常')
-            with open(p, mode='rb') as f:
-                file = f.read()
-            allure.attach(file, 'URL跳转异常截图', allure.attachment_type.PNG)
-            os.remove(p)
 
     # 输入日期到日历控件
     def cld(self, i, test):
@@ -255,4 +221,9 @@ class Keywork:
                 os.remove(p)
 
 
+        #断言
 #------------------------------------------------------------------------------------------
+
+
+
+

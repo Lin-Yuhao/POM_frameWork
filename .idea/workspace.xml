@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b1f08e-67de-40bf-bacc-f37ce5e47ab1" name="默认变更列表" comment="修改2021.11.12">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c2b1f08e-67de-40bf-bacc-f37ce5e47ab1" name="默认变更列表" comment="修改2021.11.12(2)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case_date/change_password.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case_date/information.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case_date/login.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Case_date/login.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case_date/modify_number.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case_date/modifyemail.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_object/Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page_object/Page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base_class/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_class/Base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page_object/Page_Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page_object/Page_Base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_uicase/test_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_uicase/test_01.py" afterDir="false" />
     </list>
@@ -30,6 +23,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProjectId" id="20NlHXm2Ixcd8E4mB25UOpJgkxB" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -39,11 +33,34 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Test_uicase/test_01.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunManager" selected="Python 测试.pytest">
+    <configuration name="Page_Base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="POM_frameWork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Page_object" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Page_object/Page_Base.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="POM_frameWork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,15 +99,18 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Page_Base" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python 测试.pytest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Page_Base" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="修改">
       <created>1635814505696</created>
@@ -113,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635815092792</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改2021.11.12(2)">
+      <created>1635817093261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635817093261</updated>
+    </task>
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c2b1f08e-67de-40bf-bacc-f37ce5e47ab1" name="默认变更列表" comment="修改2021.11.12(2)" />
+      <created>1635892841746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635892841746</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +165,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改" />
     <MESSAGE value="修改2021.11.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改2021.11.12" />
+    <MESSAGE value="修改2021.11.12(2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改2021.11.12(2)" />
   </component>
 </project>
