@@ -4,7 +4,6 @@ import allure
 from ddt import *
 from Page_object.Page import Page
 
-
 @ddt
 @allure.feature('模块名')
 class Test_xx:
